@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+/* HEADER */
+
+    /* nav bar  */
+
+.bgNav{
+    background-color: #121715;
+}
+.navbar-brand{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #662C91 !important; 
+    text-shadow: 0 0 20px  #500b85;
+}
+
+.nav-link{
+    color: #662C91 !important;
+    text-shadow: 0 0 10px #662C91;
+    
+}
+.nav-item{
+    margin: 10px;
+    padding-left: 5px;
+}
+.nav-item:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #500b85;
+    transition: 0,5s;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width:768px) {
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+}
+}
+/* TODO: Agregar emoji o img al logo.
+ */
+    /* nav bar end */
+
+
+
+.jumbotron{
+    background-image: url(../img/code-g34d8d12b3_1920.jpg);
+    color: #f7f4f3;
+    border-radius: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: top;
+    opacity: .9;
+}
+.jumbotron h1  {
+    background-color: #121715;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+.jumbotron{
+    h1{
+        width: 200px;
+        text-shadow: 0 0 15px #121715;
+        border-radius: 10px;
+    }
+    p{
+        background-color: #121715;
+        text-shadow: 0 0 15px #121715;
+        border-radius: 10px;
+        padding: 6px;
+        width: 150px;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+h1{
+    text-shadow: 0 0 10px #447452;
+}
+.btn-primary{
+    background-color:#121715 ;
+    border-color: #447452;
+    box-shadow: 5px 5px 5px #447452;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-primary:hover{
+    background-color: #662C91 ;
+}
+/*HEADER end*/
+
+/* Main section / Pagina principal */
+
+.al{
+    background-image: url(../img/website-gcecf52a01_1280.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #662C91;
+    
+    
+}
+.ar h3{
+    text-align: center;
+    color: #63707e;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+.ar p{
+    color: #63707e;
+    font-size: 2em;
+    font-weight: bold;
+}
+/*  Sobre mi */
+main h2{
+    background-color: #121715;
+    color: #f7f4f3;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.sobre-mi{
+    color: #f7f4f3;
+    
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.photo{
+    background-image: url(../img/WhatsApp\ Image\ 2022-07-13\ at\ 5.38.56\ PM.jpeg) ;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #662C91;
+    
+}
+.parrafo{
+    display: flex;
+    align-items: center;
+    background-color: #662C91;
+    font-family: 'Nunito', sans-serif;
+}
+/* Sobre mi end */
+/*Contacto*/
+.contacto{
+    background-color: #121715;
+    
+}
+form{
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: #662C91;
+    button{
+        width: 100px;
+        margin-left: 40%;
+        
+    }
+}
+.text-area{
+    margin-top: 20px;
+    
+}
+textarea{
+    resize: none;
+}
+label{
+    color: #f7f4f3;
+    font-size: 20px;
+}
+/*Contacto end */
+
+/* Servicios */
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 3px #121715 solid ;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 20px;
+    background-color: #662C91;
+    color: #f7f4f3;
+    img{
+        width: 100px;
+        
+        align-self: center;
+    }
+}
+.btn-srv{
+    font-size: 30px;
+    box-shadow: none;
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* Servicios end */
+
+/* Footer */
+footer{
+    background-color: #121715;
+    
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        
+        color: #662C91;
+    }
+    i{
+        color: #662C91;
+        span{
+            font-size: 10px;
+            
+        }
+    }
+    i:hover{
+        transition: 0,10s;
+    border-radius: 5px;
+    background-color: #97abe2;
+    padding-left: 10px;
+    
+    }
+}
+.redes{
+    font-size: 30px;
+    letter-spacing:  20px; 
+}
+
+
+/* Footer end */
