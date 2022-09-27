@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactame para dar el siguiente paso"> 
+    <meta name="keywords" content="html5, css3, desarrollo web, freelance">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -45,7 +47,7 @@
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="./skills.html">skills</a>
                     </li>
                 </ul>
             </div>
@@ -64,8 +66,9 @@
         <section class="container-fluid contacto">
             <div class="row">
                 <h2 class="col-md-12">Si tienes dudas o necesitas contactarme para armar un presupuesto, dejame tu información y me contactaré contigo</h2></div>
-            <div class="row">
-                <form action="/action_page.php" class="was-validated col-md-6">
+            <div class="row contact-form">
+                
+                <form action="/action_page.php" class="was-validated col-xs-12 col-md-4 col-lg-4">
                     <div class="form-group">
                         <label for="uname">Nombre:</label>
                         <input type="text" class="form-control" id="uname" placeholder="nombre" name="uname" required>
@@ -77,10 +80,10 @@
                         <div class="valid-feedback">Valid.</div>
                         <div class="form-floating text-area">
 
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 70px "></textarea>
+                            <textarea class="form-control" placeholder="Comentario" id="floatingTextarea" style="height: 70px "></textarea>
 
                     </div>
-                    
+                    <div id="particles-js"></div>
                         
                     </div>
                     <button type="submit" class="btn btn-primary">enviar</button>
@@ -89,16 +92,17 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <div class="redes">
-            <a href="https://github.com/JesusPapuccio"><i class="fa-brands fa-github"> <span>Github </span> </i></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="redes col-xs-12 col-md-6">
+                <a href="https://github.com/JesusPapuccio"><i class="fa-brands fa-github"> <span>Github </span> </i></a>
 
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"><span>Instagram</span></i> </a>
-        </div>
-        <div class="copyright">
-            <p>todos los derechos reservados por copyright</p>
-            <p>desarrollado por Jesús Papuccio</p>
-        </div>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"><span>Instagram</span></i> </a>
+            </div>
+            <div class="copyright col-xs-12 col-md-6">
+                <p>todos los derechos reservados por copyright</p>
+                <p>desarrollado por Jesús Papuccio</p>
+            </div> 
     </footer>
     <!-- Footer fin -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -114,6 +118,8 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="../js/part.js"></script>
 </body>
 
 </html>

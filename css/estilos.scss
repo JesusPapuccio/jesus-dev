@@ -27,7 +27,7 @@
 }
 .nav-item:hover{
     border-radius: 5px;
-    box-shadow: 0 0 10px #500b85;
+    box-shadow: 0 0 5px #447452;
     transition: 0,5s;
 }
 
@@ -49,7 +49,7 @@
 
 
 .jumbotron{
-    background-image: url(../img/code-g34d8d12b3_1920.jpg);
+    background-image: url(../img/code-2.png);
     color: #f7f4f3;
     border-radius: 0;
     margin: 0;
@@ -141,6 +141,12 @@ main h2{
     border: 10px solid #662C91;
     
 }
+.map{
+    background-color: #662C91;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 .parrafo{
     display: flex;
     align-items: center;
@@ -148,19 +154,28 @@ main h2{
     font-family: 'Nunito', sans-serif;
 }
 /* Sobre mi end */
+
 /*Contacto*/
 .contacto{
-    background-color: #121715;
+    background-color: #f7f4f3;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
     
 }
 form{
-    margin-left: 30%;
-    margin-top: 20px;
+    width: 50%;
     background-color: #662C91;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 99;
     button{
         width: 100px;
         margin-left: 40%;
-        
+        margin-bottom: 10px;
     }
 }
 .text-area{
@@ -174,6 +189,11 @@ label{
     color: #f7f4f3;
     font-size: 20px;
 }
+.particles-js{
+    position: absolute;
+    z-index: -1;
+}
+
 /*Contacto end */
 
 /* Servicios */
@@ -203,6 +223,62 @@ label{
     font-family: 'Nunito', sans-serif;
 }
 /* Servicios end */
+
+/* Skills */
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@keyframes roll {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.tecnologias{
+    margin: 60px 0 50px 10px ;
+    
+    img{
+        padding: 10px;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: roll;
+    }
+}
+.herramientas{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    img{
+        padding: 10px;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: roll;
+    }
+}
+.proximamente{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    img{
+        padding: 10px;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: roll;
+    }
+}
+@media (max-width:768px)  {
+    .skills{
+        display: flex;
+        justify-content: center;
+        
+}
+}
+
+/* Skils end */
 
 /* Footer */
 footer{
@@ -235,6 +311,7 @@ footer{
     font-size: 30px;
     letter-spacing:  20px; 
 }
+
 
 
 /* Footer end */
